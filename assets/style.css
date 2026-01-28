@@ -21,10 +21,41 @@ main {
     height: 100vh;
 }
 
+.option {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    max-width: 50%;
+    padding: 10px;
+    color: #000;
+    background-color: rgb(152, 155, 158);
+    font-weight: 500;
+}
+
+.nav:hover {
+    background-color: rgb(130, 133, 136);
+}
+
+#sign_in_nav {
+    border-left: 0;
+    border-radius: 13px 0 0 0;
+}
+
+#register_nav {
+    border-radius: 0 13px 0 0;
+}
+
 .form-block {
     text-align: center;
-    padding: 50px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 15px;
     background-color: #e2dede;
     min-width: 250px;
@@ -33,6 +64,8 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    min-width: 250px;
+    padding: 0 50px 50px;
 }
 
 h3 {
@@ -56,4 +89,5 @@ button {
     margin-top: 15px;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
+    font-size: 1em;
 }
