@@ -27,8 +27,8 @@ h1 {
     color: #fff;
     font-family: "Rubik Microbe", system-ui;
     font-size: 6em;
-    top: 5%;
-    
+    top: 7%;
+    animation: float 3s ease-in-out infinite;
 }
 
 .option {
@@ -104,4 +104,16 @@ button {
 #register_text {
     font-size: 0.8em;
     margin: 0 5px 5px 5px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
