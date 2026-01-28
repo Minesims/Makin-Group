@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    height: 100%;
+    background-color: #180E2E;
+    background-image: url(images/background-gradient.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-block {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #e2dede;
+    min-width: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 25px;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+button {
+    border: 0;
+    background-color: #46112F;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 0 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
