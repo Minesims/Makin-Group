@@ -16,9 +16,19 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+h1 {
+    position: fixed;
+    color: #fff;
+    font-family: "Rubik Microbe", system-ui;
+    font-size: 6em;
+    top: 5%;
+    
 }
 
 .option {
@@ -46,11 +56,11 @@ main {
 
 #sign_in_nav {
     border-left: 0;
-    border-radius: 13px 0 0 0;
+    border-radius: 10px 0 0 0;
 }
 
 #register_nav {
-    border-radius: 0 13px 0 0;
+    border-radius: 0 10px 0 0;
 }
 
 .form-block {
@@ -58,13 +68,12 @@ main {
     border: 3px solid black;
     border-radius: 15px;
     background-color: #e2dede;
-    min-width: 250px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    min-width: 250px;
+    min-width: 300px;
     padding: 0 50px 50px;
 }
 
@@ -90,4 +99,9 @@ button {
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
+}
+
+#register_text {
+    font-size: 0.8em;
+    margin: 0 5px 5px 5px;
 }
