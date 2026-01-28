@@ -23,7 +23,7 @@ main {
 }
 
 h1 {
-    position: fixed;
+    margin-bottom: 100px;
     color: #fff;
     font-family: "Rubik Microbe", system-ui;
     font-size: 6em;
